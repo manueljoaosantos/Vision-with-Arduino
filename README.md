@@ -43,4 +43,4 @@ Para utilizar o LCD via I2C, é necessário:
 
 4. As ligações do **Arduino Leonardo** ao módulo **LiquidCrystal I2C**:
 
-![Conexão Arduino Leonardo com LCD I2C](./help/arduino-uno-to-lcd-i2c.webp)
+![Conexão Arduino Leonardo com LCD I2C](imgs/arduino-uno-to-lcd-i2c.webp)
