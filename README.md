@@ -1,6 +1,6 @@
 # Projetos de Visão Computacional, Deep Learning e Arduino
 
-Este repositório combina **Visão Computacional, Deep Learning e Arduino**. Onde se irá desenvolver **dois projetos interativos** utilizando ferramentas como **MediaPipe** e **OpenCV**:
+Este repositório combina **Visão Computacional, Deep Learning e Arduino**, onde se desenvolvem **dois projetos interativos** utilizando ferramentas como **MediaPipe** e **OpenCV**:
 
 ## 🚀 Projetos
 
@@ -24,3 +24,23 @@ Este repositório combina **Visão Computacional, Deep Learning e Arduino**. Ond
 - MediaPipe
 - Arduino
 - LCD e Servo Motors
+
+## 📦 Pré-requisitos Arduino
+
+Para utilizar o LCD via I2C, é necessário:
+
+1. **Fazer o download da biblioteca Arduino LiquidCrystal I2C**:  
+   [https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)
+
+2. **Instalar o Arduino IDE**:  
+   [https://www.arduino.cc/en/software/](https://www.arduino.cc/en/software/)
+
+3. **Adicionar a biblioteca ZIP no Arduino IDE**:
+
+   - Abra o Arduino IDE
+   - Vá a **Sketch → Incluir Biblioteca → Adicionar Biblioteca .ZIP**
+   - Selecione o arquivo ZIP da biblioteca baixada
+
+4. As ligações do **Arduino Leonardo** ao módulo **LiquidCrystal I2C**:
+
+![Conexão Arduino Leonardo com LCD I2C](./help/arduino-uno-to-lcd-i2c.webp)
