@@ -1,0 +1,29 @@
+# Arduino IDE
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.tmp
+*.bak
+*.pio
+*.pioenvs/
+*.vscode/
+*.vs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env/
+.venv/
+env/
+venv/
+
+# Credentials (nunca versionar senhas)
+credentials.h
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
