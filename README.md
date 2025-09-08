@@ -47,3 +47,6 @@ Para utilizar o LCD via I2C, é necessário:
 
 5. As ligações para o projecto arduino braço web camara
    ![Conexão Arduino Leonardo com Servo](imgs/servo-motor-with-Arduino.jpg)
+
+6. As ligações do **ESP8266WiFi** ao módulo **oled 128x64 i2c**:
+   ![Conexão ESP8266WiFi com oled 128x64 i2c](imgs/ESP8266WiFi.webp)
